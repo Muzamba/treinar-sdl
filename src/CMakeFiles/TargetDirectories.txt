@@ -1,0 +1,7 @@
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/CMakeFiles/rebuild_cache.dir
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/CMakeFiles/TextureManager.dir
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/CMakeFiles/Map.dir
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/CMakeFiles/edit_cache.dir
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/CMakeFiles/Game.dir
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/CMakeFiles/GameObject.dir
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/CMakeFiles/teste.dir

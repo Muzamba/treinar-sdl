@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Game.h
+SDL2/SDL.h
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/SDL2/SDL.h
+SDL2/SDL_image.h
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/SDL2/SDL_image.h
+TextureManager.h
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/TextureManager.h
+iostream
+-
+
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Map.cpp
+Map.h
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Map.h
+TextureManager.h
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/TextureManager.h
+
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Map.h
+Game.h
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Game.h
+
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/TextureManager.h
+Game.h
+/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Game.h
+

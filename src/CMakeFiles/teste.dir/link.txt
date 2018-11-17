@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/teste.dir/main.cpp.o  -o teste libGame.a libMap.a libGameObject.a libTextureManager.a -lSDL2 -lSDL2_image -lSDL2 -lSDL2_image 
