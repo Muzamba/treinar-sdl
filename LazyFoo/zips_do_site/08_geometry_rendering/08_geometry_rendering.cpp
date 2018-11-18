@@ -2,8 +2,8 @@
 and may not be redistributed without written permission.*/
 
 //Using SDL, SDL_image, standard IO, math, and strings
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
+#include <SDL.h>
+#include <SDL_image.h>
 #include <stdio.h>
 #include <string>
 #include <cmath>
@@ -188,7 +188,7 @@ int main( int argc, char* args[] )
 
 				//Draw vertical line of yellow dots
 				SDL_SetRenderDrawColor( gRenderer, 0xFF, 0xFF, 0x00, 0xFF );
-				for( int i = 0; i < SCREEN_HEIGHT; i += 1 )
+				for( int i = 0; i < SCREEN_HEIGHT; i += 4 )
 				{
 					SDL_RenderDrawPoint( gRenderer, SCREEN_WIDTH / 2, i );
 				}

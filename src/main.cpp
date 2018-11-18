@@ -20,9 +20,9 @@ int main(int argc, char *argv[]){
         game->render();
 
         frameTime = SDL_GetTicks() - frameStart;
-        //if(frameDelay > frameTime){
-        //    SDL_Delay(frameDelay - frameTime);
-        //}
+        if(frameDelay > frameTime){
+            SDL_Delay(frameDelay - frameTime);
+        }
     }
     game->clean();
 

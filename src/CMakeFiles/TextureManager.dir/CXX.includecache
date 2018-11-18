@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Game.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/Game.h
 SDL2/SDL.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/SDL2/SDL.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/SDL2/SDL.h
 SDL2/SDL_image.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/SDL2/SDL_image.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/SDL2/SDL_image.h
 TextureManager.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/TextureManager.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/TextureManager.h
 iostream
 -
 
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/TextureManager.cpp
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/TextureManager.cpp
 TextureManager.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/TextureManager.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/TextureManager.h
 
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/TextureManager.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/TextureManager.h
 Game.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Game.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/Game.h
 

@@ -1,19 +1,16 @@
 #include "Game.h"
 #include "TextureManager.h"
-#include "GameObject.h"
 #include "Map.h"
-#include "ECS.h"
-#include "Components.h"
+#include "ECS/Components.h"
 
 
-GameObject* player;
-GameObject* alien;
+
 Map* map;
 
 SDL_Renderer* Game::renderer = nullptr; 
 
 Manager manager;
-auto& newPlayer(manager.addEntity());
+auto& player(manager.addEntity());
 
 Game::Game(){
 }
@@ -41,12 +38,12 @@ void Game::init(const char* titulo, int x_pos, int y_pos, int width, int height,
     } else {
         isRunning = false;
     }
-    player = new GameObject("../assets/Player.png", 0, 0); //, renderer
-    alien = new GameObject("../assets/Alien.png", 50, 50);  //, renderer
+    //player = new GameObject("../assets/Player.png", 0, 0); //, renderer
+    //alien = new GameObject("../assets/Alien.png", 50, 50);  //, renderer
     map = new Map();
 
-    newPlayer.addComponent<PositionComponent>();
-    newPlayer.getComponent<PositionComponent>.setPos(500, 500);
+    player.addComponent<PositionComponent>();
+    player.addComponent<SpriteComponent>("../assets/Player.png");
 }
 
 void Game::handleEvents(){
@@ -63,20 +60,23 @@ void Game::handleEvents(){
 }
 
 void Game::update(){
-    player->Update();
-    alien->Update();
+    //player->Update();
+    //alien->Update();
+    manager.refresh();
     manager.update();
 
-    std::cout << newPlayer.getComponent<PositionComponent>().x() << "," << 
-    newPlayer.getComponent<PositionComponent>().y() << std::endl;
+
+
+    //std::cout << newPlayer.getComponent<PositionComponent>().x() << "," << 
+    //    newPlayer.getComponent<PositionComponent>().y() << std::endl;
 
 }
 void Game::render(){
     SDL_RenderClear(renderer);
     //Adione aqui as coisas para renderizar
     map->DrawMap();
-    player->Render();
-    alien->Render();
+    //player->Render();
+    //alien->Render();
     SDL_RenderPresent(renderer);
 
 }

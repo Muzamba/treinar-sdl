@@ -6,35 +6,63 @@
 
 #IncludeRegexTransform: 
 
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Game.cpp
-Game.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Game.h
-TextureManager.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/TextureManager.h
-GameObject.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/GameObject.h
-Map.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Map.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/ECS/Components.h
+ECS.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/ECS/ECS.h
+PositionComponent.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/ECS/PositionComponent.h
+SpriteComponent.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/ECS/SpriteComponent.h
 
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Game.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/ECS/ECS.h
+iostream
+-
+vector
+-
+memory
+-
+algorithm
+-
+bitset
+-
+array
+-
+
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/ECS/PositionComponent.h
+Components.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/ECS/Components.h
+
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/ECS/SpriteComponent.h
+Components.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/ECS/Components.h
 SDL2/SDL.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/SDL2/SDL.h
-SDL2/SDL_image.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/SDL2/SDL_image.h
+-
+
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/Game.cpp
+Game.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/Game.h
 TextureManager.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/TextureManager.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/TextureManager.h
+Map.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/Map.h
+ECS/Components.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/ECS/Components.h
+
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/Game.h
+SDL2/SDL.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/SDL2/SDL.h
+SDL2/SDL_image.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/SDL2/SDL_image.h
+TextureManager.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/TextureManager.h
 iostream
 -
 
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/GameObject.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/Map.h
 Game.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Game.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/Game.h
 
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Map.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/TextureManager.h
 Game.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Game.h
-
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/TextureManager.h
-Game.h
-/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/Game.h
+/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/Game.h
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/main.cpp" "/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/CMakeFiles/teste.dir/main.cpp.o"
+  "/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/main.cpp" "/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/CMakeFiles/teste.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,10 +15,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/CMakeFiles/Game.dir/DependInfo.cmake"
-  "/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/CMakeFiles/Map.dir/DependInfo.cmake"
-  "/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/CMakeFiles/GameObject.dir/DependInfo.cmake"
-  "/home/ariel/Documentos/3sem/mp/tpFinal/treinar sdl/src/CMakeFiles/TextureManager.dir/DependInfo.cmake"
+  "/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/CMakeFiles/Game.dir/DependInfo.cmake"
+  "/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/CMakeFiles/Map.dir/DependInfo.cmake"
+  "/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/CMakeFiles/GameObject.dir/DependInfo.cmake"
+  "/home/pugdel/Documentos/treinar_sdl/treinar-sdl/src/CMakeFiles/TextureManager.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
